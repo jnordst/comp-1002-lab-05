@@ -1,0 +1,82 @@
+@import url(./reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 1.2em;
+    line-height: 1.5em;
+}
+
+/*Header*/
+header {
+    width: 100%;
+    padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans serif;
+    font-weight: bold;
+}
+
+header > h1{
+    font-size: 32px;
+    color: cornflowerblue;
+}
+
+header > p {
+    color: darkgray;
+    font-style: italic;
+}
+
+/* Div */
+div {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    overflow: hidden;
+}
+
+div > h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+div p:nth-child(4) {
+    color:cornflowerblue
+}
+
+div > p:nth-child(odd) {
+    background-color: darkgray;
+}
+
+/* Figure */
+div > figure {
+    margin-right: 1em;
+    float: left;
+    width: 300px;
+}
+
+div > figure > img {
+    width: 100%;
+}
+
+div > figure > cite {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    padding: 1.5em;
+}
+
+div > figure > cite > a {
+    color: #ccc;
+    text-decoration: none;
+}
+
+div > figure > cite > a:hover {
+    color: #fff;
+}
+
